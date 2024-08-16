@@ -35,7 +35,7 @@ window.onscroll = () => {
         }
         // if want to use animation that repeats on scroll use this
         else {
-            sec.classList.remove('show-animate');
+            // sec.classList.remove('show-animate');
         }
     });
 
@@ -55,6 +55,3 @@ window.onscroll = () => {
     let footer = document.querySelector('footer');
     footer.classList.toggle('show-animate', this.innerHeight + this.scroll >= document.scrollingElement.scrollHeight);
 }
-
-
-
